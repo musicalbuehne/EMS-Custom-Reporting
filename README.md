@@ -43,6 +43,7 @@ python3 ems-custom-reporting.py
   - AV Signature Version
   - AV Signature Up to Date
   - Last Seen
+ ![Screenshot of a Sample Report](samples/client_details_report_20250610_095452.png)
 
 ## Possible Values to be Displayed
 See `possible-client-details.txt` for a detailed list of all possible endpoint details that can be fetched and displayed in the report.
