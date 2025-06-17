@@ -31,7 +31,7 @@ error_list = []
 
 # Function to get all clients from EMS
 def get_all_clients(session, ems_host, csrf_token):
-    url = f"{ems_host}/api/v1/endpoints/index"
+    url = f"{ems_host}/api/v1/endpoints/index?count=1000" # If there are more than 1000 clients, you may need to implement pagination
     headers = {
         'Content-Type': 'application/json',
         'Ems-Call-Type': '2',
