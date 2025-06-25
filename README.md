@@ -43,7 +43,6 @@ python3 ems-custom-reporting.py
   - AV Signature Version
   - AV Signature Up to Date
   - Last Seen
- ![Screenshot of a Sample Report](samples/client_details_report_20250610_095452.png)
 
 ## Possible Values to be Displayed
 See `possible-client-details.txt` for a detailed list of all possible endpoint details that can be fetched and displayed in the report.
@@ -51,6 +50,9 @@ You can modify the script to include additional fields as needed. To get a previ
 ```
 https://<your-ems-server>/api/v1/endpoints/device/<ID>/details
 ```
+
+## More Examples
+Over time more examples might get added, such as fct-version-by-group.py to showcase different reporting options.
 
 ## Security
 - **Never commit `config.py` to version control!**
